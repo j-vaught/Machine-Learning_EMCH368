@@ -3,7 +3,7 @@ load('mnist.mat'); % This command loads the MNIST dataset from the 'mnist.mat' f
 
 testImages = reshape(test.images, [], numel(test.labels))';
 
-if (true) %Set true if you WANT to train your model.
+if (false) %Set true if you WANT to train your model.
     trainingImages = reshape(training.images, [], numel(training.labels))';
     trainingLabels = training.labels;
     

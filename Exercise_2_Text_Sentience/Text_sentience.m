@@ -1,6 +1,6 @@
 clc; clear; close all;
 
-trainModel = false;
+trainModel = false; % set true to train model.
 numTrees = 1000;
 testData = parquetread('test_data.parquet');
 trainData = parquetread('train_data.parquet');
