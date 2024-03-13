@@ -1,3 +1,5 @@
+%Copyright Jacob Vaught 2024
+
 clc; close all; clear all
 
 filename = 'train.csv';  % Replace with your actual file path
