@@ -1,6 +1,24 @@
+# MATLAB autosave
+*.asv
+
+# macOS metadata
+.DS_Store
+._*
+
+# Editor/IDE
+*.swp
+*~
+.vscode/
+.idea/
+
+# Python (if any helper scripts are added)
+__pycache__/
+*.pyc
+.venv/
+
+# Specific excluded outputs
 /convolutiongreysclae.png
 /convolutiongreysclae_dia1.png
 /convolutiongreysclae_dia2.png
 /convolutiongreysclae_edge.png
 /del.m
-*.asv
